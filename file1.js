@@ -1,1 +1,4 @@
-console.log("first word");
+
+console.log(`first word`);//we use these backticks in string template
+
+
