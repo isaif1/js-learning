@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Website</title>
+    <!-- here browser loads this html file and parsing one by one at line 10 it will stop to execute js code
+    but if you are using html element in js file like header or nav then you cannot acccess in the js file
+because it is not  parsed yet by browser so you will get error -->
+<!-- same thing ko down me likh skte hain -->
+    <!-- <script src="./41_js_html_link.js"></script> -->
+    <!-- now will using asyc here parsing is going simultaneously with loading js file
+    so if js loaded then parsing will start and js will execute
+so this is also not good way to do it-->
+    <!-- <script src="./41_js_html_link.js" async></script> -->
+    <!-- in below code js loading and parsing is simultaneously, even if js is loaded 
+    yet parsing will continue till end then js code will execute -->
+    <script src="./52_to_do.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <nav class="container nav">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+            <li><a href="home" class="nav-item">Home</a></li>
+            <li><a href="" class="nav-item">About</a></li>
+            <li><a href="" class="nav-item">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="headline">
+        <!-- even helllo will not be visible on screen but textContent will provide this 
+        innerText will give only which is on the screen-->
+        <h2>Manage Your task <span style="display: none;">Hello</span></h2>
+        <button class="btn btn-headline">Learn More</button>
+    </div>
+</header>
+<section class="todo container">
+<h2>Your Task for today here</h2>
+<form class="form-todo">
+    <input type="text" placeholder="Add To Do">
+    <input type="submit" value="Add Todo" class="btn">
+</form>
+<ul class="todo-list">
+    <!-- <li class="first-todo">todo 1</li> -->
+    <!-- this has been done in the last lecture 52 -->
+    <li>
+        <span class="text">Have to Do It</span>
+        <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+        </div>
+    </li>
+   </ul>
+</section>
+
+<section class="sign-up container">
+    <h2>Sign Up</h2>
+    <form class="signup-form">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="about">About yourself</label>
+             <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+    </form>
+</section>
+</body>
+</html>
