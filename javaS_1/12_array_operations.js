@@ -19,4 +19,5 @@ console.log(fruits);
 
 //shift, will remove element from start, will also return first return element
 console.log(fruits.shift());
+console.log(fruits);
 let obj = {}//object literal

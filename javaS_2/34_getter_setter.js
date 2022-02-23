@@ -47,6 +47,6 @@ user1.setprop = "newName 55";
 console.log(user1.about); 
 
 //static properties are class properties, not object peoperties
-//we can dire tly access them using class name
+//we can directly access them using class name
 console.log(CreateUser.classInfo());
 console.log(CreateUser.number);

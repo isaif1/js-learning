@@ -5,20 +5,21 @@
 
 
 //trim
-let name = "   Trim   ";
-console.log(name.length);
+let myName = "   Trim   ";
+console.log(myName.length);
 
-name = name.trim();
-console.log(name.length);
+//trim will return element and you have to recieve it
+myName = myName.trim();
+console.log(myName.length);
 
 
 //toUpperCase
-
-console.log(name.toLowerCase());
-console.log(name.toUpperCase());
+//toLowerCase will return element and you have to recieve it
+console.log(myName.toLowerCase());
+console.log(myName.toUpperCase());
 
 //slice
-console.log(name.slice(0, 3)); // it will print only till index 2
+console.log(myName.slice(1, 2)); // it will print only till index 2 
 
 
 //typeof operator

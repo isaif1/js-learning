@@ -2,9 +2,13 @@
 
 //this is obect which is calling current function
 //this is an object
-
+"use strict";
 function personInfo(){
-console.log(`name is ${this.name} and age is ${this.age}`)
+    //In JavaScript, the this keyword refers to an object.
+    //this keyword refers to different objects depending on how it is used:
+    //In a function, the global object is the default binding for this.
+console.log(`name is ${this.name} and age is ${this.age}`);
+console.log(this);
 }
 
 const person  = {

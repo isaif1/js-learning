@@ -45,7 +45,7 @@ about.call(user2,true,true);
 
 //APPLY
 //same as call, it use call internally
-about.call(user2,[true,true]);
+about.apply(user2,[true,true]);
 
 
 //Bind

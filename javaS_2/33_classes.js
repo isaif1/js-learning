@@ -19,6 +19,8 @@ class CreateUser{
 const user1 = new CreateUser('harshit',23);
 const user2 = new CreateUser('harshita',22);
 console.log(user1.about());
+//here it is not direct function , so we will use getPrototypeOf instead
+//of user1.prototype
 console.log(Object.getPrototypeOf(user1));
 
 

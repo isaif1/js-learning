@@ -43,7 +43,7 @@ human2={
 const fullInfo = new Map();
 fullInfo.set(human1,{age:29,gender:'male'});
 fullInfo.set(human2,{age:26,gender:'female'});
-console.log(fullInfo);
+console.log('fullInfo',fullInfo);
 console.log(fullInfo.get(human1).gender);
 
 

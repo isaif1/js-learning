@@ -15,6 +15,7 @@ obj2.sing = true;
 console.log(obj2.sing);
 //prototype chaining
 console.log(obj2.__proto__); 
+console.log(obj2); 
 
 
 

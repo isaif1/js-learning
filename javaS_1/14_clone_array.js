@@ -22,10 +22,11 @@ console.log(arr2);
 
 //for of loop in the array, until length
 //try to write array name in the plural, and use key as singular
+//of array deta hai
 for (let arr of arr2) {
     console.log(arr);
 }
-
+//in index deta hai
 for (let index in arr2) {
     console.log(arr2[index]);
 }

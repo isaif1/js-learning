@@ -42,3 +42,4 @@ console.log(localeObject);
 
 
 console.log({..."abc"});
+console.log(..."abcd");

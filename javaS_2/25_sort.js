@@ -15,9 +15,8 @@ const products = [
     { id: 3, name: 'p3', price: 5 },
     { id: 4, name: 'p4', price: 16 },
 ]
-
 let lowToHigh = products.slice(0).sort((a, b) => a.price - b.price);
-console.log(lowToHigh);
+console.log('price sort',lowToHigh);
 
 
 
