@@ -1,7 +1,7 @@
 //switchcase can be handled by if else also but that is tedious process
 
 let day = 2;
-//if break ni lagaya na to jo condition tru hogi uske baad saare print kr dega
+//if break ni lagaya na to jo condition true hogi uske baad saare print kr dega
 switch (day) {
     case 0:
         console.log("MonDay"); break;

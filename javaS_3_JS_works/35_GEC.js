@@ -2,12 +2,12 @@
     //there will be some preliminery steps that will execute first
     //first it will be early error checking(by using compile)
     //then determine scope for variabes
-    //compile has three phase, tilenizing, parsing, codeheneration
+    //compile has three phase, tokenizing, parsing, code generation
 console.log(this);
 console.log(window);
-console.log(name);//iska utput thora different aa rha, do not bother
-var name = "harsh";  //saying overright value of name in global creation phase
-console.log(name);
+console.log(myName);//iska utput thora different aa rha, do not bother
+var myName = "harsh";  //saying overright value of name in global creation phase
+console.log(myName);
 
     //which code is not in function then it belongs to global scope
 

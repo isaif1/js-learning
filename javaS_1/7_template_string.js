@@ -1,11 +1,11 @@
 //using template string to get value from variable
 
 let name = "saif";
-let arr = new Array(26).fill(0);
-for(let c in name){
-    arr[c-'a']++;
-    console.log(c-"a");
-}
+// let arr = new Array(26).fill(0);
+// for(let c in name){
+//     arr[c-'a']++;
+//     console.log(c-"a");
+// }
 let age = 23;
 
 let concatMe = "My name is " + name + "and my age is " + age;

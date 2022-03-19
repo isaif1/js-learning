@@ -1,4 +1,4 @@
-//unlike C++ any ddata type can be stored in the array
+//unlike C++ any data type can be stored in the array
 //array is reference type
 //array can also be called as object
 let mixed = ["but","boys","played","well",1,2,3,undefined,null,false];

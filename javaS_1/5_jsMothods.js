@@ -19,7 +19,7 @@ console.log(myName.toLowerCase());
 console.log(myName.toUpperCase());
 
 //slice
-console.log(myName.slice(1, 2)); // it will print only till index 2 
+console.log(myName.slice(1, 3)); // it will print only till index 2 
 
 
 //typeof operator

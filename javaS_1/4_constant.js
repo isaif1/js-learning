@@ -21,7 +21,9 @@ const obj = {
 console.log(obj.name);
 obj.name = 'marry'; //allowed
 
+obj.age = 35;
 console.log(obj.name);
+console.log(obj.age);
 
 
 //not allowed
