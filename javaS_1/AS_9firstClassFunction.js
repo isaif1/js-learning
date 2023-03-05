@@ -3,7 +3,7 @@
 
 //difference betweeen function statement and function expression is hoisting
 //function statement can be called even before even creating it
-//function statement cannot be call before creating it, it will be undefined
+//function expression cannot be call before creating it, it will be undefined
 
 // Function Statement/declaration
 function a(){
